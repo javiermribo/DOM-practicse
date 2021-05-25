@@ -58,3 +58,16 @@ creatingLiItems3.setAttribute("class", "nav-item");
 creatingItemA.setAttribute("class", "href=#");
 creatingItemA2.setAttribute("class", "href=# px-3 text-dark");
 creatingItemA3.setAttribute("class", "href=# px-3 text-muted");
+
+const root2 = document.querySelector("#root");
+const creatingDiv = document.createElement("div");
+root2.append(creatingDiv);
+creatingDiv.setAttribute("id", "div-id-tag");
+creatingDiv.setAttribute("class", "div-class-tag");
+
+const selectingHeroDiv = document.querySelector("#div-id-tag");
+const creatingImgTag = document.createElement("img");
+selectingHeroDiv.appendChild(creatingImgTag);
+creatingImgTag.setAttribute("src", "./Assets/michi-hero-img.jpg");
+creatingImgTag.setAttribute("width", "100%");
+
