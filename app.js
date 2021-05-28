@@ -70,4 +70,3 @@ const creatingImgTag = document.createElement("img");
 selectingHeroDiv.appendChild(creatingImgTag);
 creatingImgTag.setAttribute("src", "./Assets/michi-hero-img.jpg");
 creatingImgTag.setAttribute("width", "100%");
-
